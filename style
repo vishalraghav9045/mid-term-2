@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 12em;
+    padding-right: 12em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: black;
+    color: white;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  ul li {
+    margin-left: 2em;
+  }
+  ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    background-image: url("https://images.unsplash.com/photo-1719937051124-91c677bc58fc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    height: 500px;
+    align-items: center;
+  }
+  
+  main div{
+  
+      background-color:blue;
+      width: 350px;
+      padding: 2em;
+      color: white;
+      border-radius: 20px;
+      height: 300px;
+      margin-right: 3em;
+  }
+  
+  main div button{
+      border-radius: 30px;
+      background-color: white;
+      border: hidden;
+      color: blue;
+      font-size: 20px;
+      padding: 1em 2em 1em 2em;
+      margin-top: 3em;
+      cursor: pointer;
+  }
+  
+  .section1{
+      background-color: white;
+      padding: 15em;
+  }
+  
+  .section1 span{
+      color: blue;
+      font-size: 1.5em;
+  }
+  
+  .section1 p{
+      line-height: 30px;
+      font-size: 2em;
+  }
+  
+  .section1 h2{
+      font-family: cursive;
+      font-size: 3em;
+      font-weight: lighter;
+  }
+  
+  .section2{
+      background-color: gainsboro;
+      padding: 15em;
+  }
+  
+  .section2 span{
+      color: blue;
+      font-size: 1.5em;
+  }
+  
+  
+  .section2 h2{
+      font-size: 4em;
+  }
+  .section2 div img{
+      width: 50%;
+  }
+  .section2 div{
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+  
+  }
+  
+  .section3{
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 1em;
+  }
+  .section3 img{
+      margin-left: 1em;
+      width: 30%;
+  }
+  
+  .section4{
+      background-color: gainsboro;
+      padding: 15em;
+      margin-top: 2em;
+  }
+  
+  .section4 span{
+      color: blue;
+      font-size: 1.5em;
+  }
+  .section4 h3{
+      font-size: 2em;
+  }
+  
+  .section4 button{
+      border-radius: 30px;
+      border: hidden;
+      font-size: 1.5em;
+      padding: 1em 2em 1em 2em;
+      cursor: pointer;
+  }
+  
+  .section4 .btn1{
+      background-color: blue;
+      color: white;
+  }
+  
+  .section4 .btn2{
+      margin-right: 3em;
+      border: 2px solid blue;
+      color: blue;
+  }
+  
+  footer{
+      background-color: black;
+      padding:15em;
+      text-align: center;
+      
+  }
+  
+  footer span{
+      color: blue;
+      font-size: 2em;
+  }
+  
+  footer h3{
+      color: blue;
+      font-size: 3em;
+  }
+  
+  footer p{
+      color: gray;
+      font-size: 1.5em;
+  }
+  
+  footer div{
+      display: flex;
+      justify-content: center;
+  }
